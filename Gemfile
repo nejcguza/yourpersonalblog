@@ -25,6 +25,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise', '~> 3.5.1'
 
+gem 'carrierwave'
+
 gem 'bootstrap-sass', '~> 2.3.1.0'
 
 group :development, :test do
