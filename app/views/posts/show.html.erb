@@ -1,11 +1,13 @@
 <h1><%= @post.title %></h1>
 
+Posted by:
 <div style="color:#BC3CBC">
   <p><%= @post.user.email %></p>
 </div>
 
 <%= @post.text %>
 
+<%= image_tag(@post.picture_url, :width => 600) if @post.picture.present? %>
 
 <h2>Comments</h2>
 

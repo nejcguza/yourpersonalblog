@@ -3,6 +3,7 @@
 <% @posts.each do |post| %>
   <h2><%= link_to post.title, post %></h2>
 
+Posted by:
   <div style="color:#BC3CBC">
   <p><%= truncate post.user.email %></p>
 </div>
